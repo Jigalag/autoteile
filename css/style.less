@@ -416,3 +416,189 @@
     }
   }
 }
+.customSelect{
+  select{
+    &::-ms-expand {
+      display: none;
+    }
+  }
+}
+.mainSearchCategory {
+  vertical-align: top;
+  label,
+  .searchInput,
+  .searchSubmit{
+    vertical-align: top;
+    height: 35px;
+    margin: 0;
+  }
+  .searchInput{
+    display: block;
+  }
+}
+.breadCrumbsWrapper{
+  a{
+    &:after{
+      text-decoration: none !important;
+    }
+  }
+}
+.brandsLogos{
+  margin-top: 20px;
+  margin-bottom: 6px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  *{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .brandsTitle{
+    border: 1px solid #e5e5e5;
+    border-bottom: none;
+    height: 45px;
+    background: #fef5f5;
+    font: 18px/44px 'Arial';
+    padding: 0 15px;
+  }
+  .brandsList{
+    border: 1px solid #e5e5e5;
+    height: 135px;
+    padding: 25px 0;
+    .tableCell{
+      border-left: 1px solid #e5e5e5;
+      &:first-child{
+        border-left: none;
+      }
+    }
+  }
+}
+.saleBlock{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: #f6f6f6;
+  *{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  a{
+    text-decoration: none;
+  }
+  .saleTitle{
+    border: 1px solid #e5e5e5;
+    border-bottom: none;
+    height: 45px;
+    font: 18px/44px 'Arial';
+    padding: 0 15px;
+  }
+  .saleList{
+    height: 332px;
+    border: 1px solid #e5e5e5;
+    padding: 6px 0;
+    border-top: none;
+    .saleWrapper{
+      width: 20%;
+      padding: 0 6px;
+      float: left;
+    }
+    .saleItem{
+      height: 320px;
+      background: #ffffff;
+      .imageBlock{
+        height: 170px;
+        border: 1px solid #e5e5e5;
+        border-bottom: none;
+        position: relative;
+        img{
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          -webkit-transform: translate(-50%, -50%);
+          -moz-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          -o-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+        }
+        .priceBlock{
+          position: absolute;
+          color: #b0b0b0;
+          font: 24px/24px 'Arial';
+          left: 10px;
+          top: 10px;
+          z-index: 2;
+          font-weight: bold;
+          display: block;
+        }
+        .percentBlock{
+          position: absolute;
+          font: 14px/24px 'Arial';
+          right: 10px;
+          top: 10px;
+          z-index: 2;
+          font-weight: bold;
+          padding: 0 5px;
+          background: #e0151f;
+          color: #ffffff;
+          max-width:  40%;
+          display: block;
+        }
+        .articleBlock{
+          position: absolute;
+          font: 12px/20px 'Arial';
+          left: 10px;
+          bottom: 10px;
+          z-index: 2;
+          padding: 0 5px;
+          background: #f7f7f7;
+          color: #000;
+          max-width:  40%;
+          display: block;
+        }
+      }
+      .titleBlock{
+        font: 12px/16px 'Arial';
+        height: 48px;
+        overflow: hidden;
+        color: #000;
+        padding: 0 15px;
+        border-left: 1px solid #e5e5e5;
+        border-right: 1px solid #e5e5e5;
+        display: block;
+      }
+      .newPriceBlock{
+        color: #0649b9;
+        font: 24px/24px 'Arial';
+        font-weight: bold;
+        padding: 17px 15px 5px;
+        border-left: 1px solid #e5e5e5;
+        border-right: 1px solid #e5e5e5;
+        display: block;
+      }
+      .lightTextBlock{
+        color: #737373;
+        font: 10px/16px 'Arial';
+        padding: 0 15px 4px;
+        overflow: hidden;
+        -ms-text-overflow: ellipsis;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        border-left: 1px solid #e5e5e5;
+        border-right: 1px solid #e5e5e5;
+        display: block;
+      }
+      .buttonBlock{
+        height: 36px;
+        background: #3862a9;
+        color: #ffffff;
+        font: 12px/36px 'Arial';
+        text-align: center;
+        text-transform: uppercase;
+        cursor: pointer;
+        display: block;
+      }
+    }
+  }
+}
