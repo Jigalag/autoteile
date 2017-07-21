@@ -1,0 +1,16 @@
+.customSelect select::-ms-expand {
+  display: none;
+}
+.mainSearchCategory {
+  vertical-align: top;
+}
+.mainSearchCategory label,
+.mainSearchCategory .searchInput,
+.mainSearchCategory .searchSubmit {
+  vertical-align: top;
+  height: 35px;
+  margin: 0;
+}
+.mainSearchCategory .searchInput {
+  display: block;
+}
